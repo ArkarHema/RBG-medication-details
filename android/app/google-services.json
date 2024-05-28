@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496925964016",
+    "project_id": "rbg-project",
+    "storage_bucket": "rbg-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496925964016:android:c6a06fa9e6dd6dc80e7435",
+        "android_client_info": {
+          "package_name": "com.example.rbgproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeyMyt6IwRp4uvTNzQLSsylcONI7qqqRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
