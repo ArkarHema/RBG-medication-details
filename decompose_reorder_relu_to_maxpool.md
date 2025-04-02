@@ -1,4 +1,4 @@
-**REORDER RELU TO MAXPOOL**
+***REORDER RELU TO MAXPOOL***
 
 **Definition:**
 
@@ -51,14 +51,15 @@ For input shape (1, 64, 224, 224) with kernel size (2, 2) and stride (2, 2):
 
 **SAMPLE ONNX FLOW:**
 
-![Image](https://github.com/user-attachments/assets/238bc4fb-e5dd-46d1-99eb-d1d9191eca9d)
+![relu_maxpool_before onnx](https://github.com/user-attachments/assets/bca07e3a-9460-41e0-9e8f-b3dd2da07b52)
 
 
 **Sample ONNXIR before optimization:**
 
-![Image](https://github.com/user-attachments/assets/1863f85c-f509-483f-8ecc-2781ac0d8caf)
+![relu_maxpool_before1 onnx mlir](https://github.com/user-attachments/assets/595706d3-44c7-475e-a1af-28703bc18fbe)
 
 
 **Sample ONNXIR after optimization:**
 
-![Image](https://github.com/user-attachments/assets/aba508b2-47af-45b1-95b5-75f6e5213159)
+![relu_maxpool_1 onnx11 mlir](https://github.com/user-attachments/assets/f8d8134b-b3c5-4d22-9daf-4fd879116e50)
+
